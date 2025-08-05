@@ -246,6 +246,7 @@ class Methods
         {
             Caster.Statuses.Add(new Status(3, 2));
         }
+        Console.WriteLine($"You firmly press your palm into {Target.name}'s chest. You heat your hand up significantly, scorching both you and {Target.name}!);
     }
 
 
@@ -696,4 +697,5 @@ class Methods
                 break;
         }
     }
+
 }
